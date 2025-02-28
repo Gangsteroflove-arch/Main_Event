@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.global-footer {
+.global-footer-page {
     text-align: center;
 }
 
@@ -24,6 +24,38 @@
     overflow-y: auto;
 }
 
+{
+    margin: 0;
+    padding; 0;
+}
+nav{
+    background: color(srgb red green blue);
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+ol 
+{
+    align-content: center;
+}
 /*
 media query - adjust screen based on screen width or height
 */

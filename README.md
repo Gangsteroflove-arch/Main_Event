@@ -10,7 +10,7 @@
 - javascript 
 
 # github code repositoty
-- https://github.com/
+- https://gangsteroflove-arch.github.io/Main_Event/
 
 # github website url 
 - https://github.com/Gangsteroflove-arch/Main_Event.git
