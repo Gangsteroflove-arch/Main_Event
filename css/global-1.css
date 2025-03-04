@@ -61,9 +61,18 @@ media query - adjust screen based on screen width or height
 */
 
 /*
-add google font 
-*/
+ google font
+ */
 
 /*
 add scss - css compiler
 */
+
+body{
+    background-color: rgb(145, 147, 135)
+}
+    
+h2{
+    font-family:Merriweather;
+
+}
