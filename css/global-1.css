@@ -1,4 +1,4 @@
-.global-center-page {
+.global-center-page{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +29,8 @@
     padding; 0;
 }
 nav{
-    background: color(srgb red green blue);
-    padding: 1rem;
+    background: color(srgb);
+    padding: 7 rem;
 }
 nav ul {
     list-style: none;
@@ -43,13 +43,13 @@ nav ul li {
     display: inline;
 }
 nav ul li a {
-    color: white;
+    color: rgb(18, 2, 2);
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
 }
 nav ul li a:hover{
-    background-color: #575757;
+    background-color: ;
     border-radius: 5px;
 }
 ol 
@@ -61,18 +61,19 @@ media query - adjust screen based on screen width or height
 */
 
 /*
- google font
- */
-
-/*
 add scss - css compiler
 */
 
 body{
-    background-color: rgb(145, 147, 135)
+    background-color: rgb(140, 141, 154)
 }
+
+/*
+ google font
+ */
     
 h2{
-    font-family:Merriweather;
+    font-family:Permanent Marker;
+    size:
 
 }
