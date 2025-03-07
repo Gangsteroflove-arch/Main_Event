@@ -11,7 +11,7 @@
 
 
 .div-scroll-1 {
-    width: 400px;
+    width: 500px;
 }
 
 
@@ -24,10 +24,11 @@
     overflow-y: auto;
 }
 
-{
+nav{
     margin: 0;
-    padding; 0;
+    padding: 0;
 }
+
 nav{
 
     padding: 7 rem;
@@ -43,13 +44,13 @@ nav ul li {
     display: inline;
 }
 nav ul li a {
-    color: rgb(18, 2, 2);
+    color: rgb(4, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
 }
 nav ul li a:hover{
-    background-color: ;
+    background-color:blue ;
     border-radius: 5px;
 }
 ol 
@@ -65,15 +66,25 @@ add scss - css compiler
 */
 
 body{
-    background-color: rgb(140, 141, 154)
+    background-color: rgba(12, 47, 116, 0.666)
 }
 
 /*
  google font
  */
     
-h1{
+h1,h2{
     font-family:Permanent Marker;
     font-size: xx-large;
 
+}
+
+
+@media only screen and (max-width: 350px) {
+    
+    .div-scroll-1 {
+        width: 150px;
+        background-color: rgb(109, 100, 160);
+    }
+        
 }

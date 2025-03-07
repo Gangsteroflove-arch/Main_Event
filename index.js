@@ -44,7 +44,7 @@ function btnSearch(){
         //giphy url and api key  
       
         const _search_text = txtsearch.value //input text fields
-        const _giphy_ApiKey = ""
+        const _giphy_ApiKey = "AjY3OYQ9uBhmFZUddUQBQ8SmnFwM9tvx"
         const _giphy_result_data_file = "./data/giphy2.json";
         const _giphyApi_Url = `https://api.giphy.com/v1/gifs/search?api_key=${_giphy_ApiKey}&q=${_search_text}&limit=25&rating=g`; 
     
@@ -76,8 +76,8 @@ function btnSearch(){
         let _request_url = (_giphy_ApiKey.trim().length == 0)? _giphy_result_data_file : _giphyApi_Url;
     
         console.log("---- _request_url---- ");
-        console.log(_request_url)
-        console.log("")
+        console.log(_request_url);
+        console.log("");
     
         fetch(_request_url)
         .then(response => {
@@ -123,14 +123,14 @@ function btnSearch(){
             for(i=0;i<data.data.length;i++)
             {
               //unit test: display 5 images , exit loop 
-              if(i>5)
+              if(i>10)
               {
                 //ext loop 
                 break;
               }
   
               _image = data.data[i].images.original.url;
-              _html += `<img width='100' height='100' src='${_image}'>`
+              _html += `<img width='200' height='200' src='${_image}'>`
               //display 3 images per row 
             }
             
@@ -149,7 +149,9 @@ function btnSearch(){
         });
     
         console.log("..continue fetching gphy data...demo of non-blocking code")
-        divdisplayinfo.innerText = "..continue fetching giphy data...demo of non-blocking code";
+
+        divdisplayinfo.innerText = "..continue fetching giphy data...demo of non-blocking code"
+        return false;
     
   
     //--- Giphy Api Search code ------
