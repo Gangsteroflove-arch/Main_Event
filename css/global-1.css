@@ -84,7 +84,7 @@ h1,h2{
     
     .div-scroll-1 {
         width: 150px;
-        background-color: rgb(109, 100, 160);
+     
     }
         
 }
@@ -92,4 +92,6 @@ h1,h2{
 p
 {
     font-family:Permanent Marker ;
+    font-size:larger;
+    color: rgb(1, 11, 11);
 }
