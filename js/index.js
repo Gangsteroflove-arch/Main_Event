@@ -130,7 +130,7 @@ function btnSearch(){
               }
   
               _image = data.data[i].images.original.url;
-              _html += `<img width='200' height='200' src='${_image}'>`
+              _html += `<img width='90' height='200' src='${_image}'>`
               //display 3 images per row 
             }
             
